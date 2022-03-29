@@ -100,6 +100,7 @@ fetch(url)
 
                     ////// ===== attributes
                   $img.setAttribute('src',country.flags.png);
+		  $img.setAttribute('alt','countries_flag');
                   $name.innerHTML = country.name;
                   if(country.name.length >14){
                     $name.style.position ='relative';
@@ -140,7 +141,7 @@ fetch(url)
 
 
 
-            //// ========== Searcg section  ============= ///
+            //// ========== search section  ============= ///
     function myFunction() {
       var input = document.querySelector(".form-control").value
       var fldInput =document.querySelector("#inputSearch")
