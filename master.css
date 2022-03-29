@@ -1,0 +1,513 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+h4,h5,h6,p {font-family: 'Nunito Sans', sans-serif;}
+
+/* =============== Dark Mode Colors =============== */
+
+:root {
+  --background-color:  hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+  --input-light:hsl(0, 0%, 52%);
+  --elements: hsl(0, 0%, 100%);
+}
+
+header{
+  background-color: var(--elements);
+  color: var(  --header-text);
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.form-select,
+input.form-control,#theme-switcher input,
+input.form-control:focus,input,button.btn-primary,button.btn-primary:hover,
+button.btn-primary:active,
+i,.backBtn,
+#header,
+.country_cart{
+   background-color:var(--elements);
+   color: var(--text-color);
+   border-color: var(--elements);
+
+}
+
+[data-theme="dark"] {
+
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+  --elements:   hsl(209, 23%, 22%);
+
+
+}
+[data-theme="dark"] .form-control{
+  --background-color:pink;
+    color: var(--text-color);
+}
+
+/* ==========================
+    Decoration
+   ==========================
+*/
+
+body,#bodyId{
+  margin: 0 auto;
+  min-width: 375px;
+  max-width: 1440px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    place-items: baseline;
+    word-spacing: 1px;
+    padding-top: 34px;
+    max-width: 1440px;
+}
+
+
+header h4{
+  word-spacing: 1px;
+  text-transform:capitalize;
+  margin-left: 36px;
+font-family: 'Nunito Sans', sans-serif;
+font-weight: 700;
+
+}
+#theme-switcher{
+    cursor: pointer;
+    margin-right: 51px;
+}
+#theme-switcher input{
+      margin-left: 12px;
+      border-style:none;
+
+}
+#button-addon1{
+  border-style:none;
+}
+
+
+ /* ========  searching bar  =========*/
+
+#countainer_search_items{
+  display: flex;
+  justify-content: space-between;
+  place-items: baseline;
+  min-width: 865px;
+}
+.input-group{
+  width: 25%;
+margin-top: 54px;
+margin-left: 36px;
+}
+
+
+/*========== Search by Region List========== */
+
+#search_byRegion{
+  width: 212px;
+  position: relative;
+  right: 135px;
+  font-family: 'Nunito Sans', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+
+}
+
+/* search_drop down menu */
+select#search_byRegion.form-select option{
+  margin: 2% 0 2% 0;
+  cursor: pointer;
+}
+form label{
+  display: inline;
+  position: relative;
+  top: 30px;
+  z-index: 200;
+  right: 110px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  display: inline;
+  width: 75%;
+
+
+}
+
+
+/* ================== Main page Countries area =============*/
+
+#countries{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5vw 3vh;
+margin-top: 6%;
+position: relative;
+top: 75px;
+margin-bottom: 6%;
+}
+
+#countries a{text-decoration: none;}
+
+.country_cart{
+  margin: 0 auto;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 4%;
+  height: 370px;;
+  width: 250px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 14%;
+
+
+}
+.country_cart h6,h5{
+  margin-left: 10px;
+margin-top: 8px;
+}
+.country_cart img{
+
+width: 100%;
+height: 175px;
+border-radius: 4% 4% 2% 2%;
+height: 175px;
+
+}
+.country_cart ol{
+  position: relative;
+  left: -16px;
+  margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.country_cart li{
+  display: flex;
+justify-content: flex-start;
+text-transform: capitalize;
+height: 2em;
+}
+.country_cart li:nth-child(2){
+  margin-top: 20px;
+}
+.country_info{
+  font-weight: 300;
+  position: relative;
+    top: 6px;
+    right: -5px;
+}
+.listItem{
+  display: flex;
+justify-content: flex-start;
+text-transform: capitalize;
+height: 2em;
+}
+/*/*==========  =============== Country Page =============== /*========== */
+h6,h5{
+    font-weight:bold;
+}
+.country_section{
+  display: flex;
+    justify-content: flex-start;
+    margin-top: 76px;
+}
+
+#country_page_main{
+margin-top:5%;
+padding-left: 45px;
+
+}
+.BorderCountries{
+    display: flex;
+    justify-content: start;
+    width: 40em;
+    position: relative;
+    top: 41px;
+    align-items: baseline;
+}
+
+
+.BorderCountries h6{
+  margin-right: 5%;
+  position: relative;
+  top: 7px;
+}
+
+.list_wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: start;
+    justify-content: flex-start;
+  }
+div#extra_info{
+  position: relative;
+    left: 16%;
+
+}
+div#extra_info ol{
+  list-style: none;
+      margin-left: -20px;
+      margin-right: 56px;
+}
+#extra_info h5{
+      text-align: start;
+      margin-bottom: 8%;
+      font-size: 24px;
+}
+.listItem{
+  display: flex;
+justify-content: flex-start;
+text-transform: capitalize;
+height: 2em;
+}
+.list_info{
+  font-weight: 300;
+  position: relative;
+    top: -3px;
+    right: -5px
+}
+#flag_img{
+    max-width: 100%;
+    height: auto;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.backBtn{
+  border-radius: 8px;
+    height: 2.5em;
+    width: 6em;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    text-align: center;
+ text-decoration: none;
+
+}
+.backBtn a{
+  text-decoration: none;
+  position: relative;
+  top: 4px;
+}
+.borderC{
+  display: inline-flex;
+overflow: overlay;
+  min-width: 251px;
+  min-height: 125px;
+
+}
+
+.borderC p{ margin-left: 2%}
+.borderC a{
+    min-width: fit-content;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-right: 12px;
+    color:var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+    padding-top: 1%;
+    height: 50px;
+    padding: 4px;
+
+}
+
+
+
+/* ///////////// ========== RESPONSIVE ==========  ////////////// */
+
+@media only screen and (max-width: 1200px){
+
+.country_section {
+    display: block;
+      text-align: center;
+          margin-bottom: 12%;
+
+  }
+  #extra_info h5{
+      display: block;
+      text-align: center;
+      margin-bottom: 12%;
+      margin-top: 7%;
+      font-size: 32px;
+        }
+
+.list_wrapper{
+  display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+}
+div#extra_info{
+
+      left:0%;
+  width: auto;
+  }
+  #theme-switcher {
+    margin-right: 19px;
+  }
+
+  #theme-switcher input {
+      margin-left: 0px;
+      border-style: none;
+
+}
+.BorderCountries{
+  width:0%;
+  display: block;
+  display: contents;
+
+
+}
+.borderC{
+      display: inline-grid;
+}
+
+.borderC a{
+  margin-bottom: 6%;
+}
+@media only screen and (max-width: 850px){
+  #bodyId > header{
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+  #countainer_search_items {
+    display:block;
+    position: relative;
+    top: 50px;
+  }
+  .input-group{
+    width: 80vw;
+  }
+#formSelect{
+display: block !important;
+  position: relative;
+  left: 209px;
+  top: 19px;
+}
+  #countries{
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 5vw 3vh;
+
+}
+
+}
+
+
+@media only screen and (max-width: 568px){
+
+/* =================== country page============== */
+  #bodycountry,
+  main,
+  section,
+  .list_wrapper{
+    display: block!important;
+    margin: 0 auto;
+  }
+  .country_section{
+    margin-top: 12%;
+  }
+  #extra_info{
+    margin-top: 12%;
+  }
+  .BorderCountries{
+    width:0%;
+    display: block;
+
+  }
+  .borderC{
+        display: inline-grid;
+  }
+
+  .borderC a{
+    margin-bottom: 6%;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+
+/* =================== country page============== */
+
+
+#bodycountry,
+main,
+section,
+.list_wrapper{
+  display: block!important;
+}
+
+header{
+  font-size: 14px;
+}
+#theme-switcher input {
+    margin-left: 0px;
+    border-style: none;
+  }
+h4{
+  font-size: medium;
+}
+.backBtn {
+  width: 5em;
+}
+
+
+
+.list_info{
+  word-break: break-word;
+}
+
+#country_page_main{
+  margin: 0 auto;
+position: relative;
+top: 61px;
+margin-top: 0;
+padding-left: 0;
+}
+
+
+#flag_img{
+  margin-top: 11%;
+margin-bottom: 11%;
+width: auto;
+}
+.BorderCountries {
+    width: 375px;
+  list-style: none;
+      display: list-item;
+      position: relative;
+      top: 4%;
+      line-height: 2;
+      left: 5px;
+      margin-top: 8px;
+
+  }
+.BorderCountries h6{
+  text-align: initial;
+  margin: 0 auto;
+}
+.BorderCountries a{
+      margin: 5% 2%;
+}
+
+
+.borderC{
+  width: 320px;
+  text-align: initial;
+  overflow: overlay;
+  margin-top: 27px;
+  line-height: 3;
+  position: relative;
+  right: 35px;
+}
+.backBtn{
+  position: relative;
+    left: 33px;
+}
+.listItem{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+}
