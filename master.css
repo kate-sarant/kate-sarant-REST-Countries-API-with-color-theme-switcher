@@ -368,9 +368,8 @@ div#extra_info{
   position: fixed;
   top: 0;
   width: 100%;
+  min-width: 320px;
 }
-
-
   #countainer_search_items {
     display:block;
     position: relative;
@@ -384,6 +383,11 @@ display: block !important;
   position: relative;
   left: 209px;
   top: 19px;
+  right: 0px;
+}
+#Mylable{
+      left: 100px;
+      right: 0px;
 }
   #countries{
     display: grid;
@@ -405,6 +409,10 @@ display: block !important;
     display: block!important;
     margin: 0 auto;
   }
+header h4{
+  margin-left: 0px;
+}
+
   .country_section{
     margin-top: 12%;
   }
@@ -414,12 +422,10 @@ display: block !important;
   .BorderCountries{
     width:0%;
     display: block;
-
   }
   .borderC{
         display: inline-grid;
   }
-
   .borderC a{
     margin-bottom: 6%;
   }
@@ -445,8 +451,9 @@ header{
     margin-left: 0px;
     border-style: none;
   }
-h4{
+header h4{
   font-size: medium;
+  margin-left: 8px;margin-left: 8px;
 }
 .backBtn {
   width: 5em;
@@ -511,3 +518,4 @@ margin-bottom: 2%;
 }
 
 }
+
