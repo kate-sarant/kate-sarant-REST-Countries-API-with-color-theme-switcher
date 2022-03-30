@@ -70,7 +70,7 @@ During this project i visited :
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kate-sarant)
+- Frontend Mentor - [@kate-sarant] (https://www.frontendmentor.io/profile/kate-sarant)
 - Twitter - @KateSarant (https://www.twitter.com/KateSarant)
 - Linkedin - linkedin.com/in/aikaterini-sarantopoulou-4b05a51b5
 - GitHub - [kate-sarant] https://github.com/kate-sarant
