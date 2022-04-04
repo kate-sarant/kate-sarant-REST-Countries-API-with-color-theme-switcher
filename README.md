@@ -39,15 +39,16 @@ Users should be able to:
 ![photo](./assets/375px_screen_dark.png)
 ![photo](./assets/375px_screenLight_homepage.png)
 ![photo](./assets/home_photo_dark_1440px.png)
-![photo](./homepage_light_1440px.png)
-![photo](./medium_dark.png)
-![photo](./medium_light.png)
+![photo](./assets/homepage_light_1440px.png)
+![photo](./assets/medium_dark.png)
+![photo](./assets/medium_light.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- GitHub: [Add live site URL here](ttps://github.com/kate-sarant/kate-sarant-REST-Countries-API-with-color-theme-switcher)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/restcountriesapiwithcolorthemeswitcher-BJGrKOJ7c)
+- GitHub: [Add live site URL here](https://github.com/kate-sarant/kate-sarant-REST-Countries-API-with-color-theme-switcher)
+- Site:[Site here](https://countriespages.netlify.app)
 
 
 
@@ -64,7 +65,7 @@ Users should be able to:
 - Bootstrap(https://getbootstrap.com/)- Bootstrap 5
 
 ### Useful resources
-During this project i visited :
+During this project I visited :
 - [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - For some guiding about localStorage.
 - [nodejs.org/](https://nodejs.org/en/docs/) - For some guiding about nodejs.
 
