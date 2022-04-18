@@ -61,7 +61,6 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 - [Node](https://nodejs.org/) - Nodejs
-- [React](https://reactjs.org/) - JS library
 - Bootstrap(https://getbootstrap.com/)- Bootstrap 5
 
 ### Useful resources
